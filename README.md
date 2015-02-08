@@ -15,6 +15,7 @@ This project is released under GNU GENERAL PUBLIC LICENSE - Version 2, June 1991
 Having trouble? Contact me, I'll try to help as much as I can.
 
 # Author / Contact
-@JozefJarosciak ETX Software Inc. (http://www.etx.ca) 
+@JozefJarosciak 
+ETX Software Inc. (http://www.etx.ca)
 Blog: http://www.joe0.com
 LinkedIn Contact: https://www.linkedin.com/in/jozefj
