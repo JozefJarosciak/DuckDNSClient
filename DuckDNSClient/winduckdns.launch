@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.boris.winrun4j.eclipse.launch">
+<stringAttribute key="dde.class" value=""/>
+<booleanAttribute key="dde.enabled" value="false"/>
+<stringAttribute key="dde.server" value=""/>
+<stringAttribute key="dde.topic" value=""/>
+<stringAttribute key="dde.window" value=""/>
+<stringAttribute key="log" value=""/>
+<stringAttribute key="log.level" value="error"/>
+<booleanAttribute key="log.overwrite" value="true"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/DuckDNSClient/src/duckdns.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.debug.ui.CONSIDER_INHERITED_MAIN" value="true"/>
+<booleanAttribute key="org.eclipse.jdt.debug.ui.INCLUDE_EXTERNAL_JARS" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="duckdns"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="DuckDNSClient"/>
+<stringAttribute key="process.priority" value=""/>
+<stringAttribute key="single.instance" value=""/>
+<booleanAttribute key="splash.autohide" value="true"/>
+<stringAttribute key="splash.image" value=""/>
+</launchConfiguration>
