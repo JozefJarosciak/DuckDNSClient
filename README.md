@@ -5,8 +5,8 @@ DuckDns Updater is a Windows tray application that allows you to keep your dynam
 http://www.etx.ca/products/windows-applications/duckdns-update-client/
 
 # Source Code & Licensing
-Application is coded entirely in the Java language. As far as SDLC, only Eclipse & GWT Java development tools were used during the process. As far as third party libraries only dependency is on JSoup library. 
-You're welcome to help out to further enhance this project.
+Application is coded entirely in Java and only Eclipse was used during the process. As far as third party libraries only dependency is on JSoup (http://jsoup.org). 
+You're welcome to help to further enhance this project.
 
 # License
 This project is released under GNU GENERAL PUBLIC LICENSE - Version 2, June 1991
