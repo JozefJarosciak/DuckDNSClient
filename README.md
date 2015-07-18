@@ -7,6 +7,7 @@ http://www.etx.ca/products/windows-applications/duckdns-update-client/
 
 # Source Code & Licensing
 Application is coded entirely in Java and only Eclipse was used during the process. As far as third party libraries only dependency is on JSoup (http://jsoup.org). 
+You can create jar files using following setup instructions: https://github.com/JozefJarosciak/DuckDNSClient/blob/master/DuckDNSClient/DuckDnsInstaller/1.HOWTO-JOE.txt
 You're welcome to help to further enhance this project.
 
 # License
