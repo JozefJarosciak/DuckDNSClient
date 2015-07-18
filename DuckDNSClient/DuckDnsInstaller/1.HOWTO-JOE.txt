@@ -1,6 +1,6 @@
-- create executable jar in eclipse
-- open launch4j and create DuckDnsUpdater.exe using \DuckDNSClient\DuckDnsInstaller\DuckDNSUpdater.xml settings
-- open \DuckDNSClient\DuckDnsInstaller\DuckDnsUpdaterInstaller.iss in inno setup compiler and build new exe: DuckDnsUpdater-Installer.exe
+- first create executable jar in eclipse (export / java / executable jar)
+- open launch4j (http://launch4j.sourceforge.net) and create 'DuckDns.exe' using settings contained in: \DuckDNSClient\DuckDnsInstaller\DuckDNSUpdater.xml
+- open \DuckDNSClient\DuckDnsInstaller\DuckDnsUpdaterInstaller.iss in inno setup compiler (http://www.jrsoftware.org/isdl.php#stable) and build new exe: DuckDnsUpdater-Installer.exe
 
 - Ask for it to be uploaded to ETX web:
   -DuckDnsUpdater-Installer.exe
