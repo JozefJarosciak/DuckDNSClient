@@ -37,7 +37,7 @@ import org.jsoup.nodes.Document;
 
 public class duckdns {
 
-static String DuckDNSVersion = "DuckDns Updater (vs1.0.5)";
+static String DuckDNSVersion = "DuckDns Updater (vs1.0.6)";
 String TOOL_TIP = DuckDNSVersion;
 static String StatusMsg = "";
 String MESSAGE_HEADER = DuckDNSVersion;
