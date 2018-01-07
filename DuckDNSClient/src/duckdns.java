@@ -322,7 +322,7 @@ String url = "http://checkip.amazonaws.com";
 String ip = "";
 
 try {
-doc = Jsoup.connect(url).ignoreHttpErrors(true).ignoreContentType(true).timeout(10 * 1000).get();
+doc = Jsoup.connect(url).header("Cache-Control", "no-cache").ignoreHttpErrors(true).ignoreContentType(true).timeout(10 * 1000).get();
 ip = doc.text();
 } catch (IOException e) {
 e.printStackTrace();
