@@ -318,7 +318,7 @@ exitItem.addActionListener(new ActionListener() {
 
 private static String getip() {
 Document doc = null;
-String url = "http://checkip.amazonaws.com";
+String url = "https://checkip.amazonaws.com";
 String ip = "";
 
 try {
@@ -335,7 +335,7 @@ return ip;
 }
 
 private static String updateDuckDNS(String domain, String token, String ipaddress) {
-String url = "http://www.duckdns.org/update?domains=" + domain + "&token=" + token + "&ip=" + ipaddress;
+String url = "https://www.duckdns.org/update?domains=" + domain + "&token=" + token + "&ip=" + ipaddress;
 Document doc = null;
 String ua = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.120 Safari/535.2";
 try {
