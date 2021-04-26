@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Wix xmlns='http://schemas.microsoft.com/wix/2006/wi'>
+  <Product Name='DuckDNS Updater' Id='F4D03CB7-3B18-44CB-AA4A-4F83FBAEBE8A' UpgradeCode='F4D03CB7-3B18-44CB-AA4A-4F83FBAEBE8B' Language='1033' Codepage='1252' Version='1.0.6' Manufacturer='duckdns.org'>
+    <Package Id='*' Keywords='Installer' Description="DuckDNS Updater" InstallerVersion='106' Languages='1033' Compressed='yes' SummaryCodepage='1252' />
+    <Media Id='1' Cabinet='Sample.cab' EmbedCab='yes' DiskPrompt="CD-ROM #1" />
+    <Property Id='DiskPrompt' Value="DuckDNS Updater [1]" />
+    <Directory Id='TARGETDIR' Name='SourceDir'>
+      <Directory Id='ProgramFilesFolder' Name='PFiles'>
+        <Directory Id='INSTALLDIR' Name='DuckDNS Updater'>
+          <Component Id='MainExecutable' Guid='F4D03CB7-3B18-44CB-AA4A-4F83FBAEBE8C'>
+            <File Id='DuckDNSUpdaterEXE' Name='duckdns.exe' DiskId='1' Source='../target/duckdns.exe' KeyPath='yes' />
+          </Component>
+        </Directory>
+      </Directory>
+    </Directory>
+    <Feature Id='Complete' Level='1'>
+      <ComponentRef Id='MainExecutable' />
+    </Feature>
+  </Product>
+</Wix>
