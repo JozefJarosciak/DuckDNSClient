@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <headerType>gui</headerType>
+  <jar>../target/duckdns-1.0.6.jar</jar>
+  <outfile>../target/duckdns.exe</outfile>
+  <icon>logo.ico</icon>
+  <singleInstance>
+    <mutexName>DuckDnsUpdater</mutexName>
+    <windowTitle>DuckDnsUpdater</windowTitle>
+  </singleInstance>
+  <jre>
+    <minVersion>1.8</minVersion>
+  </jre>
+</launch4jConfig>
