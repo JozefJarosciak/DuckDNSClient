@@ -180,8 +180,8 @@ settingsItem.addActionListener(new ActionListener() {
  if (a == JOptionPane.OK_OPTION) {
 
  if (domainField.getText().length() > 0 && tokenField.getText().length() > 0) {
- prefs.put("domain", domainField.getText().replace(".duckdns.org", ""));
- prefs.put("token", tokenField.getText());
+ prefs.put("domain", domainField.getText().trim().replace(".duckdns.org", ""));
+ prefs.put("token", tokenField.getText().trim());
  prefs.put("refresh", minuteField.getSelectedItem().toString());
  String ip = getip();
  //  prefs.put("oldipaddress", ip);
